@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A326F2148723DC0033B32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A326F1148723DC0033B32D /* Foundation.framework */; };
+		89A326F8148723DC0033B32D /* OudsLib_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A326F7148723DC0033B32D /* OudsLib_iOS.m */; };
+		89A32703148724160033B32D /* NodeData.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A326FF148724160033B32D /* NodeData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A32704148724160033B32D /* NodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A32700148724160033B32D /* NodeData.m */; };
+		89A32705148724160033B32D /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A32701148724160033B32D /* XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A32706148724160033B32D /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A32702148724160033B32D /* XMLParser.m */; };
+		89A3380C14A245D50080AB7D /* ZoomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A3380A14A245D50080AB7D /* ZoomViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A3380D14A245D50080AB7D /* ZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A3380B14A245D50080AB7D /* ZoomViewController.m */; };
+		89A558C414885BDD00E36F62 /* COMMON.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A558C214885BDD00E36F62 /* COMMON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A558C514885BDD00E36F62 /* COMMON.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A558C314885BDD00E36F62 /* COMMON.m */; };
+		89FB650714A38DD4009FBBCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FB650614A38DD4009FBBCA /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89A326EE148723DC0033B32D /* libOudsLib_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOudsLib_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A326F1148723DC0033B32D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89A326F5148723DC0033B32D /* OudsLib_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OudsLib_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		89A326F6148723DC0033B32D /* OudsLib_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OudsLib_iOS.h; sourceTree = "<group>"; };
+		89A326F7148723DC0033B32D /* OudsLib_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OudsLib_iOS.m; sourceTree = "<group>"; };
+		89A326FF148724160033B32D /* NodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeData.h; sourceTree = "<group>"; };
+		89A32700148724160033B32D /* NodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeData.m; sourceTree = "<group>"; };
+		89A32701148724160033B32D /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		89A32702148724160033B32D /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		89A3380A14A245D50080AB7D /* ZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomViewController.h; sourceTree = "<group>"; };
+		89A3380B14A245D50080AB7D /* ZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomViewController.m; sourceTree = "<group>"; };
+		89A558C214885BDD00E36F62 /* COMMON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COMMON.h; sourceTree = "<group>"; };
+		89A558C314885BDD00E36F62 /* COMMON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COMMON.m; sourceTree = "<group>"; };
+		89FB650614A38DD4009FBBCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A326EB148723DC0033B32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FB650714A38DD4009FBBCA /* UIKit.framework in Frameworks */,
+				89A326F2148723DC0033B32D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A326E3148723DC0033B32D = {
+			isa = PBXGroup;
+			children = (
+				89A326F3148723DC0033B32D /* OudsLib_iOS */,
+				89A326F0148723DC0033B32D /* Frameworks */,
+				89A326EF148723DC0033B32D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A326EF148723DC0033B32D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A326EE148723DC0033B32D /* libOudsLib_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A326F0148723DC0033B32D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A326F1148723DC0033B32D /* Foundation.framework */,
+				89FB650614A38DD4009FBBCA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89A326F3148723DC0033B32D /* OudsLib_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89A558C214885BDD00E36F62 /* COMMON.h */,
+				89A558C314885BDD00E36F62 /* COMMON.m */,
+				89A3380814A245B00080AB7D /* zoom */,
+				89A326FE148724160033B32D /* xml */,
+				89A326F6148723DC0033B32D /* OudsLib_iOS.h */,
+				89A326F7148723DC0033B32D /* OudsLib_iOS.m */,
+				89A326F4148723DC0033B32D /* Supporting Files */,
+			);
+			path = OudsLib_iOS;
+			sourceTree = "<group>";
+		};
+		89A326F4148723DC0033B32D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A326F5148723DC0033B32D /* OudsLib_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A326FE148724160033B32D /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				89A326FF148724160033B32D /* NodeData.h */,
+				89A32700148724160033B32D /* NodeData.m */,
+				89A32701148724160033B32D /* XMLParser.h */,
+				89A32702148724160033B32D /* XMLParser.m */,
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
+		89A3380814A245B00080AB7D /* zoom */ = {
+			isa = PBXGroup;
+			children = (
+				89A3380A14A245D50080AB7D /* ZoomViewController.h */,
+				89A3380B14A245D50080AB7D /* ZoomViewController.m */,
+			);
+			path = zoom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89A326EC148723DC0033B32D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A32703148724160033B32D /* NodeData.h in Headers */,
+				89A32705148724160033B32D /* XMLParser.h in Headers */,
+				89A3380C14A245D50080AB7D /* ZoomViewController.h in Headers */,
+				89A558C414885BDD00E36F62 /* COMMON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89A326ED148723DC0033B32D /* OudsLib_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A326FB148723DC0033B32D /* Build configuration list for PBXNativeTarget "OudsLib_iOS" */;
+			buildPhases = (
+				89A326EA148723DC0033B32D /* Sources */,
+				89A326EB148723DC0033B32D /* Frameworks */,
+				89A326EC148723DC0033B32D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OudsLib_iOS;
+			productName = OudsLib_iOS;
+			productReference = 89A326EE148723DC0033B32D /* libOudsLib_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A326E5148723DC0033B32D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = OUDS;
+			};
+			buildConfigurationList = 89A326E8148723DC0033B32D /* Build configuration list for PBXProject "OudsLib_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89A326E3148723DC0033B32D;
+			productRefGroup = 89A326EF148723DC0033B32D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A326ED148723DC0033B32D /* OudsLib_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A326EA148723DC0033B32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A326F8148723DC0033B32D /* OudsLib_iOS.m in Sources */,
+				89A32704148724160033B32D /* NodeData.m in Sources */,
+				89A32706148724160033B32D /* XMLParser.m in Sources */,
+				89A558C514885BDD00E36F62 /* COMMON.m in Sources */,
+				89A3380D14A245D50080AB7D /* ZoomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89A326F9148723DC0033B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		89A326FA148723DC0033B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A326FC148723DC0033B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OudsLib_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OudsLib_iOS/OudsLib_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89A326FD148723DC0033B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OudsLib_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OudsLib_iOS/OudsLib_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A326E8148723DC0033B32D /* Build configuration list for PBXProject "OudsLib_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A326F9148723DC0033B32D /* Debug */,
+				89A326FA148723DC0033B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A326FB148723DC0033B32D /* Build configuration list for PBXNativeTarget "OudsLib_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A326FC148723DC0033B32D /* Debug */,
+				89A326FD148723DC0033B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A326E5148723DC0033B32D /* Project object */;
+}
