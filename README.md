@@ -1,3 +1,3 @@
 # libs4iOS
 
-some libs for iOS
+libs for iOS.
